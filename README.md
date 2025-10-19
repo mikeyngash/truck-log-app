@@ -1,33 +1,33 @@
-# 🚛 Truck Log App - HOS Compliance System
+# Truck Log App - HOS Compliance System
 
 A professional truck driver log book application that generates compliant Hours of Service (HOS) logs with interactive maps and PDF exports.
 
-## 🌐 Live Demo
+## Live Demo
 
 **Frontend:** https://sr-4bui2mlb3-mikeyngashs-projects.vercel.app  
 **Backend API:** https://app-production-6389.up.railway.app
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 
-- ✅ **Route Planning** - Calculate optimal routes between locations
-- ✅ **HOS Compliance** - Enforces 70hrs/8days rule automatically
-- ✅ **Interactive Map** - Visual route display with Leaflet
-- ✅ **PDF Generation** - Professional log sheets matching DOT standards
-- ✅ **Sleeper Berth Support** - Split sleeper berth provision (8/2 split)
-- ✅ **Smart Stops** - Automatic fueling stops every 1000 miles
-- ✅ **Entry Merging** - Adjacent entries of same status are merged
+- **Route Planning** - Calculate optimal routes between locations
+- **HOS Compliance** - Enforces 70hrs/8days rule automatically
+- **Interactive Map** - Visual route display with Leaflet
+- **PDF Generation** - Professional log sheets matching DOT standards
+- **Sleeper Berth Support** - Split sleeper berth provision (8/2 split)
+- **Smart Stops** - Automatic fueling stops every 1000 miles
+- **Entry Merging** - Adjacent entries of same status are merged
 
 ### Technical Highlights
 
-- 🎯 Real-time route calculation using OSRM
-- 🎯 Geocoding with Nominatim
-- 🎯 RESTful API with Django REST Framework
-- 🎯 Responsive React frontend
-- 🎯 Production-ready deployment
+- Real-time route calculation using OSRM
+- Geocoding with Nominatim
+- RESTful API with Django REST Framework
+- Responsive React frontend
+- Production-ready deployment
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 truck-log-app/
@@ -50,7 +50,7 @@ truck-log-app/
 └── docs/               # Documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ npm start
 
 Frontend runs at: `http://localhost:3000`
 
-## 📋 API Endpoints
+## API Endpoints
 
 ### Create Trip
 
@@ -111,7 +111,7 @@ Content-Type: application/json
 }
 ```
 
-## 🎯 HOS Rules Implemented
+## HOS Rules Implemented
 
 ### 70-Hour/8-Day Rule
 
@@ -140,7 +140,7 @@ Content-Type: application/json
 - Pauses 14-hour clock
 - Optional feature
 
-## 📊 Testing
+## Testing
 
 ### Run Backend Tests
 
@@ -162,7 +162,7 @@ curl -X POST http://localhost:8000/api/trip/ \
   }'
 ```
 
-## 🌍 Deployment
+## Deployment
 
 ### Backend (Railway)
 
@@ -182,14 +182,14 @@ vercel login
 vercel --prod
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Implementation Summary](IMPLEMENTATION_SUMMARY.md)
 - [Testing Guide](TESTING_GUIDE.md)
 - [Deployment Guide](DEPLOYMENT_GUIDE.md)
 - [Quick Deploy](QUICK_DEPLOY.md)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -212,23 +212,23 @@ vercel --prod
 - Vercel (Frontend)
 - PostgreSQL (Production DB)
 
-## 📝 License
+## License
 
 MIT License - feel free to use this project for learning or commercial purposes.
 
-## 👨‍💻 Author
+## Author
 
 Michael Nganga  
 Email: michaelnganga552@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - FMCSA for HOS regulations documentation
 - OSRM for routing services
 - OpenStreetMap for map data
 - Nominatim for geocoding services
 
-## 📞 Support
+## Support
 
 For issues or questions:
 
@@ -238,4 +238,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ for truck drivers and fleet managers**
+**Built with care for truck drivers and fleet managers**
