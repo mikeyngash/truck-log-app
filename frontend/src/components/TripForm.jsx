@@ -24,7 +24,7 @@ const TripForm = ({ formData, onChange, onSubmit, loading }) => {
     }
     
     try {
-      const response = await fetch(`http://127.0.0.1:8000/api/locations/search/?q=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://app-production-6389.up.railway.app/api/locations/search/?q=${encodeURIComponent(query)}`);
       const data = await response.json();
       setSuggestions(prev => ({ ...prev, [field]: data }));
     } catch (error) {
