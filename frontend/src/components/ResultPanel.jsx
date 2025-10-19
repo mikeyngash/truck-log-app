@@ -54,7 +54,7 @@ const ResultPanel = ({ result, loading, error }) => {
 
       {result.pdf_url && (
         <div className="pdf-download-section">
-          <a href={`http://127.0.0.1:8000/media/${result.pdf_url}`} target="_blank" rel="noopener noreferrer" className="pdf-download-button">
+          <a href={`https://app-production-6389.up.railway.app/media/${result.pdf_url}`} target="_blank" rel="noopener noreferrer" className="pdf-download-button">
             📄 Download Complete PDF Log
           </a>
         </div>
