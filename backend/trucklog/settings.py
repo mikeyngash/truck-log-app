@@ -138,11 +138,12 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3001",
     "http://127.0.0.1:3001",
+    "https://www.albytechs.online",
+    "https://albytechs.online",
+    "https://sr-mikeyngashs-projects.vercel.app",
+    "https://sr-4kkkhyj84-mikeyngashs-projects.vercel.app",
 ]
 
-# Add Vercel domains for production
-if not DEBUG:
-    CORS_ALLOWED_ORIGINS.extend([
-        "https://*.vercel.app",
-    ])
-    CORS_ALLOW_ALL_ORIGINS = True  # For production, allow all origins (or specify your Vercel domain)
+# Allow all origins in production for easier deployment
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
